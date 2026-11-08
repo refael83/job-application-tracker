@@ -1,0 +1,14 @@
+# secrets and local settings
+backend/.env
+.claude/
+
+# dependencies and build output
+backend/.venv/
+__pycache__/
+frontend/node_modules/
+frontend/dist/
+
+# runtime files
+logs/
+*.log
+*.db
